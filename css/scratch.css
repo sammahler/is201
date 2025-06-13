@@ -1,0 +1,102 @@
+.common {
+    text-align: center;
+    font-family: cursive;
+}
+
+.header {
+    background-color: #4a805d;
+    color: white;
+    height: 300px;
+    line-height: 300px;
+    font-size: xx-large;
+}
+
+.mainbody {
+    background-color: whitesmoke;
+}
+
+.footer {
+    position: fixed;
+    background-color: black;
+    color: white;
+    bottom: 0px;
+    left: 5px;
+    right: 5px;
+    height: 25px;
+    line-height: 25px;
+}
+
+img {
+    display: block;
+    width: 400px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    background-color: lightgray;
+    padding: 10px;
+    overflow: hidden;
+}
+
+nav a {
+    color: #333;
+    text-decoration: none;
+    padding: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    background-color: #ccc;
+}
+
+.centered-list {
+    padding-left: 0;
+    list-style-position: outside;
+    margin: 0 auto;
+    display: table;
+    text-align: left;
+}
+
+
+/* Wordle tile styles */
+
+.tile {
+    border: 2px solid #555;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    text-transform: uppercase;
+    user-select: none;
+    width: 50px;
+    height: 50px;
+    margin: 0 2px;
+    background-color: #121213;
+    /* dark background */
+    color: white;
+    font-family: Arial, sans-serif;
+    /* override cursive here for clarity */
+    transition: background-color 0.3s ease, border-color 0.3s ease;
+}
+
+.correct {
+    background-color: #6aaa64 !important;
+    /* green */
+    border-color: #6aaa64 !important;
+    color: white;
+}
+
+.present {
+    background-color: #c9b458 !important;
+    /* yellow */
+    border-color: #c9b458 !important;
+    color: white;
+}
+
+.absent {
+    background-color: #3a3a3c !important;
+    /* gray */
+    border-color: #3a3a3c !important;
+    color: white;
+}
